@@ -7,50 +7,36 @@ import Navs from '../components/Nav';
 
 export default function Home() {
   const [showBugs, setShowBugs] = useState(false);
-  const [showNav, setshowNav] = useState(false);
-  const [showGrid, setshowGrid] = useState(false);
+  const [showNav, setShowNav] = useState(false);
+  const [showGrid, setShowGrid] = useState(false);
 
-  // timeline for the bug spawning
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setShowBugs(true);
-  //   }, 4000); // 5 seconds delay for intro animation
-  // }, []);
-
-
-
-  // tinmeline for showing the nav bar
+  // Timeline for showing the nav bar
   useEffect(() => {
     setTimeout(() => {
-      setshowNav(true);
-    }, 4000); // 5 seconds delay for intro animation
+      setShowNav(true);
+    }, 4000);
   }, []);
 
-  // timeline for shoing the grids
+  // Timeline for showing the grids
   useEffect(() => {
     setTimeout(() => {
-      setshowGrid(true);
-    }, 4000); // 5 seconds delay for intro animation
+      setShowGrid(true);
+    }, 4000); 
   }, []);
 
   return (
     <div className="relative">
-       {!showBugs && !showNav && <Intro />}
-       {showBugs && <Grids />}
-       {showNav && <Navs/>}
-
+      <Intro />
+      {showNav && <Navs />}
 
       <section id="home" className="content">
-        {/* <h1 className="text-white">Home</h1> */}
+        {showGrid && <Grids />}
       </section>
       <section id="about" className="content">
-        {/* <h1 className="text-white">About </h1> */}
       </section>
       <section id="projects" className="content">
-        {/* <h1 className="text-white">Projects</h1> */}
       </section>
       <section id="contact" className="content">
-        {/* <h1 className="text-white">Contact</h1> */}
       </section>
     </div>
   );

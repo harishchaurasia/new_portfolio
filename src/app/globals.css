@@ -36,23 +36,24 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: #000;
+  background: #1a1a1a;
   position: relative;
   overflow-x: hidden; /* Prevent horizontal scrollbars from appearing */
 }
 
-/* For the Grid Background */
 .grid-background {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-              linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-  background-size: 20px 20px;
+  background-image: linear-gradient(#363636 1px, transparent 0), 
+                    linear-gradient(90deg, #363636 1px, transparent 0);
+  background-size: 25px 25px;
   position: absolute;
-  top: 50%;
+  top: 53.5%;
   left: 50%;
-  width: calc(100% - 40px); /* Adjust width as needed */
-  height: calc(100% - 40px); /* Adjust height as needed */
-  z-index: -5;
-  opacity: 0.8; /* Adjust opacity to make edges a bit opaque */
-  box-shadow: inset 0 0 10px #000; /* Create a shadow effect for the edges */
+  /* width: calc(100% - 40px);
+  height: calc(100% - 40px);  */
+  width: 100%;
+  height: 850px;
+  z-index: 0;
+  opacity: 0.9;
+  box-shadow: inset 0 0 150px #2a2a2a;
   transform: translate(-50%, -50%); /* Center the grid */
 }
