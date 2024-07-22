@@ -21,4 +21,4 @@ export default function Home() {
       {/* Add other components for your portfolio here */}
     </div>
   );
-}
+} 

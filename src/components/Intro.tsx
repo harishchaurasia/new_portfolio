@@ -5,13 +5,13 @@ import { gsap } from 'gsap';
 const Intro: React.FC = () => {
   useEffect(() => {
     const tl = gsap.timeline();
-    tl.to("#welcome-text", { opacity: 1, duration: 2 })
-      .to("#welcome-text", { opacity: 0, duration: 2, delay: 1 });
+    tl.to("#welcome-text", { opacity: 1, duration: 2, delay: 0.5 })
+      .to("#welcome-text", { opacity: 0, duration: 2, delay: 2 });
   }, []);
 
   return (
     <div className="flex items-center justify-center h-screen bg-black">
-      <h1 id="welcome-text" className="text-6xl text-white opacity-0 font-imperfect">Welcome...</h1>
+      <h1 id="welcome-text" className="text-6xl text-red-800 opacity-0 font-imperfect">Welcome...</h1>
     </div>
   );
 };
