@@ -16,8 +16,8 @@ export default function Home() {
   return (
     <div className="relative">
       {!showBugs && <Intro />}
-      {showBugs && <Bugs />}
-      <p className="text-white">Hello</p>
+      {/* {showBugs && <Bugs />} */}
+      {/* <p className="text-white">Hello</p> */}
       {/* Add other components for your portfolio here */}
     </div>
   );

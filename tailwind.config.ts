@@ -13,8 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        imperfect: ['ImPerfect23', 'sans-serif'],
+        league: ['LeagueSpartan-Bold', 'sans-serif'],
+        playfairItalic: ['PlayfairDisplay-Italic', 'serif'],
+        playfair: ['PlayfairDisplay-Variable', 'serif'],
+      },
     },
   },
   plugins: [],
 };
+
 export default config;

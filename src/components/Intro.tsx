@@ -11,7 +11,7 @@ const Intro: React.FC = () => {
 
   return (
     <div className="flex items-center justify-center h-screen bg-black">
-      <h1 id="welcome-text" className="text-6xl text-white opacity-0">Welcome</h1>
+      <h1 id="welcome-text" className="text-6xl text-white opacity-0 font-imperfect">Welcome...</h1>
     </div>
   );
 };
