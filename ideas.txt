@@ -1,0 +1,16 @@
+1. I could have somethig like this, where after a few seconds the page darkens with a search light 
+focussing on the next section and a ghost eye saying i know you wanna know more...maybe I can add 
+some sound effects and make that ghiost eye(just liek int he example) say stuff.
+https://codepen.io/lynnandtonic/pen/VwwWXwR 
+
+
+
+2. Maybe I could add a background effect like this and then enhance it to have a game like scenario 
+where in the blocks there may be snakes and villains, no actually Green Code Bugs(sign of actual code bugs in coding)
+that will come and try to do something, like maybe try eat the cursor or slow the cursor movement even if the user tries 
+to move it when the bugs are near and to remove them or push them away you have to hover over those bugs to make them run away for a while.
+
+Also I could use idea one to basically highlight the bugs for a sec, telling the user that now you gotta avoid them.
+
+and the bugs could say, We can't let you see the genius of this guy, I can't let you destroy us bugs.
+https://pixmob.com/   
