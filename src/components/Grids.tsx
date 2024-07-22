@@ -1,8 +1,13 @@
 // src/components/Grids.tsx
 import React from 'react';
 
-const Grids: React.FC = () => {
-  return <div className="grid-background"></div>;
+interface GridsProps {
+  width: string;
+  height: string;
+}
+
+const Grids: React.FC<GridsProps> = ({ width, height }) => {
+  return <div className="grid-background" style={{ width, height }}></div>;
 };
 
 export default Grids;
