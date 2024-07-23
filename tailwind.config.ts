@@ -16,8 +16,9 @@ const config: Config = {
       fontFamily: {
         imperfect: ['ImPerfect23', 'sans-serif'],
         league: ['LeagueSpartan-Bold', 'sans-serif'],
-        playfairItalic: ['PlayfairDisplay-Italic', 'serif'],
+        speedBeast: ['SpeedBeast', 'sans-serif'],
         playfair: ['PlayfairDisplay-Variable', 'serif'],
+        ComicNeue:['ComicNeue-Regular', 'serif'],
       },
     },
   },

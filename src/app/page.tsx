@@ -15,14 +15,14 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setShowNav(true);
-    }, 4000);
+    }, 4200);
   }, []);
 
   // Timeline for showing the grids
   useEffect(() => {
     setTimeout(() => {
       setShowGrid(true);
-    }, 4000); 
+    }, 4200); 
   }, []);
 
   return (
