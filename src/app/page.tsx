@@ -5,6 +5,7 @@ import Intro from '../components/Intro';
 import Grids from '../components/Grids';
 import Navs from '../components/Nav';
 
+
 export default function Home() {
   const [showBugs, setShowBugs] = useState(false);
   const [showNav, setShowNav] = useState(false);
@@ -27,10 +28,11 @@ export default function Home() {
   return (
     <div className="relative">
       <Intro />
+
       {showNav && <Navs />}
 
       <section id="home" className="content">
-        {showGrid && <Grids />}
+      {showGrid && <Grids />}
       </section>
       <section id="about" className="content">
       </section>
