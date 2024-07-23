@@ -1,6 +1,8 @@
+// src/layout.tsx
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";  // Ensure this import is correct
+import "./globals.css";
+import Grids from '../components/Grids';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Grids />
         {children}
       </body>
     </html>
