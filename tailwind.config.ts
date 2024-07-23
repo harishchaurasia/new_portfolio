@@ -15,10 +15,10 @@ const config: Config = {
       },
       fontFamily: {
         imperfect: ['ImPerfect23', 'sans-serif'],
-        league: ['LeagueSpartan-Bold', 'sans-serif'],
+        dragonHunter: ['DragonHunter', 'sans-serif'],
         speedBeast: ['SpeedBeast', 'sans-serif'],
-        playfair: ['PlayfairDisplay-Variable', 'serif'],
-        ComicNeue:['ComicNeue-Regular', 'serif'],
+        bruce: ['BruceForeverRegular', 'serif'],
+        aloe:['Aloevera', 'serif'],
       },
     },
   },

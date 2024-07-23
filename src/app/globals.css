@@ -12,9 +12,9 @@
 }
 
 @font-face {
-  font-family: 'LeagueSpartan-Bold';
-  src: url('/fonts/LeagueSpartan-Bold.otf') format('opentype');
-  font-weight: bold;
+  font-family: 'DragonHunter';
+  src: url('/fonts/DragonHunter.otf') format('opentype');
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -27,16 +27,16 @@
 
 
 @font-face {
-  font-family: 'ComicNeue-Bold';
-  src: url('/fonts/ComicNeue-Bold.ttf') format('truetype');
-  font-weight: bold;
+  font-family: 'BruceForeverRegular';
+  src: url('/fonts/BruceForeverRegular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 
 
 @font-face {
-  font-family: 'PlayfairDisplay-Variable';
-  src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-family: 'Aloevera';
+  src: url('/fonts/Aloevera.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -56,11 +56,11 @@ body {
                     linear-gradient(90deg, #363636 1px, transparent 0);
   background-size: 40px 40px;
   position: absolute;
-  margin-top: 10px;
-  top: 52.4%;
-  left: 49.9%;
-  width:99.8%;
-  height: 847px;
+  /* margin-top: 10px; */
+  top: 50%;
+  left: 49%;
+  width:100%;
+  height: 100%;
   z-index: 0;
   opacity: 0.9;
   box-shadow: inset 0 0 50px #3a3a3a;
