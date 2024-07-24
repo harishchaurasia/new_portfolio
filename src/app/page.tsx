@@ -7,31 +7,35 @@ import Navs from '../components/Nav';
 
 
 export default function Home() {
-  const [showBugs, setShowBugs] = useState(false);
   const [showNav, setShowNav] = useState(false);
   const [showGrid, setShowGrid] = useState(false);
+  const [showScene, setShowScene] = useState(false);
 
-  // Timeline for showing the nav bar
   useEffect(() => {
     setTimeout(() => {
       setShowNav(true);
     }, 4200);
   }, []);
 
-  // Timeline for showing the grids
   useEffect(() => {
     setTimeout(() => {
       setShowGrid(true);
     }, 4200); 
   }, []);
 
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setShowScene(true);
+  //   }, 4200); 
+  // }, []);
+
   return (
     <div className="relative">
       <Intro />
       {showNav && <Navs />}
-
+      {showScene && <Scene />}
       <section id="home" className="content">
-      {showGrid && <Grids />}
+        {showGrid && <Grids />}
       </section>
       <section id="about" className="content">
       </section>
