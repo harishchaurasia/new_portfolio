@@ -4,7 +4,7 @@ import { useFrame, useThree } from '@react-three/fiber';
 import { useControls } from 'leva';
 
 export default function Model() {
-  const { nodes } = useGLTF("/squareInfinity2.glb");
+  const { nodes } = useGLTF("/squareInfinity1.glb");
   const { viewport } = useThree();
   const torus = useRef(null);
   
